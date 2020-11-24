@@ -30,8 +30,6 @@ exports.regUser = (req, res) => {
     console.log(userinfo)
     res.send('reguser OK')
   })
-
-
 }
 
 exports.login = (req, res) => {
